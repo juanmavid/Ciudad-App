@@ -1,0 +1,50 @@
+﻿body {
+    background-color: lightgray;
+}
+
+ul {
+    width: 1300px;
+    height: 35px;
+}
+
+    ul li {
+        background-color: lightgreen;
+        border: solid 1px;
+        padding-top: 15px;
+        width: 250px;
+        height: 35px;
+        list-style: none;
+        float: left;
+        text-align: center;
+    }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        ul li:hover {
+            background-color: green;
+        }
+
+        ul li:active {
+            background-color: blue;
+            color: white;
+        }
+
+.home {
+    width: 1300px;
+    height: 500px;
+    background-color: lightblue;
+    float: left;
+    text-align: center;
+    font-family: italic;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: lightgreen;
+    float: left;
+    width: 1300px;
+    height: 70px;
+}
